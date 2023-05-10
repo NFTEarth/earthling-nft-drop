@@ -216,16 +216,16 @@ const Home: NextPage = () => {
         ) : (
           <>
             <div className={styles.infoSide}>
-              {/* Title of your NFT Collection */}
+              {/* Earthlings */}
               <h1>{contractMetadata?.name}</h1>
-              {/* Description of your NFT Collection */}
+              {/* 4,444 web3 Earthlings committed to blockchain technology. */}
               <p className={styles.description}>
                 {contractMetadata?.description}
               </p>
             </div>
 
             <div className={styles.imageSide}>
-              {/* Image Preview of NFTs */}
+              {/* Preview */}
               <MediaRenderer
                 className={styles.image}
                 src={contractMetadata?.image}
@@ -317,10 +317,10 @@ const Home: NextPage = () => {
           </>
         )}
       </div>
-      {/* Powered by thirdweb */}{" "}
+      {/* Powered by NFTEarth */}{" "}
       <Image
-        src="/logo.png"
-        alt="thirdweb Logo"
+        src="/arbitrum.png"
+        alt="NFTEarth Logo"
         width={135}
         height={22}
         className={styles.buttonGapTop}

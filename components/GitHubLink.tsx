@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 export default function ThirdwebGuideFooter() {
-  const url = "https://github.com/thirdweb-example/nft-drop";
+  const url = "https://nftearth.exchange";
 
   return (
     <>
@@ -31,11 +31,11 @@ export default function ThirdwebGuideFooter() {
       >
         <a href={url} target="_blank" rel="noopener noreferrer">
           <Image
-            src="/github.png"
+            src="/logo.png"
             width={40}
             height={40}
             style={{ cursor: "pointer" }}
-            alt="GitHub"
+            alt="NFTEarth"
           />
         </a>
       </div>

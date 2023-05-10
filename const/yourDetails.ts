@@ -1,2 +1,2 @@
 // Replace this with your contract address
-export const myNftDropContractAddress: string = "0xbC044bc063F4F88e9d52D833c200aE05Ea65FAF9";
+export const myNftDropContractAddress: string = "0xA1f6A0D00753f48C1856c27a31DC467F74F2d4d3";
